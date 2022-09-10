@@ -1,0 +1,429 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+.container {
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/* top section */
+.main {
+    font-size: 14px;
+    font-family: Calibri;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.main a:visited {
+    color: black;
+}
+
+.main-left {
+    float: left;
+    text-align: left;
+    width: 50%;
+}
+
+.main-right {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+  
+
+/* KBCNMU TOP LOGO */
+.main-img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    z-index: 1;
+}
+
+
+/* Navigation  Bar*/
+.navbar {
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(35, 32, 32);
+}
+
+.navbar li {
+    float: left;
+    border-top: 4px solid rgb(35, 32, 32);
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 9px;
+    /* border-top: 4px solid rgb(35, 32, 32); */
+    text-decoration: none;
+}
+
+/* li a:hover {
+    border-top: 4px solid #87b42c;
+} */
+
+.navbar li:hover {
+    background-color: rgb(54, 50, 50);
+    border-top: 4px solid #87b42c;
+}
+
+/* li:active{
+
+} */
+
+/* dropdowns */
+/* .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    background-color: red;
+    text-decoration: none;
+} */
+
+.navbar li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: red;
+    min-width: 103px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: brown;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.search-tab {
+    padding-top: 3px;
+    padding-right: 8px;
+}
+
+#search-btn {
+    float: right;
+    width: 3%;
+    height: 36px;
+    padding: 6px;
+    background: #87b42c;
+    color: #e4fbb6;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=text] {
+    padding: 9px;
+    font-size: 15px;
+    float: right;
+    width: 15%;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* image slider */
+
+.slide-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.slide img {
+    vertical-align: middle;
+}
+
+.slide {
+    display: none;
+}
+
+
+/* Next & previous buttons */
+.previous,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    /* transition: 0.6s ease; */
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.previous:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.512);
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+
+.caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: absolute;
+    top: 20%;
+}
+
+#caption-head {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#caption-head-first {
+    border-bottom: 3px solid #87b42c;
+}
+
+#caption-desc {
+    font-family: Calibri;
+    padding: 10px;
+}
+
+.caption-btn {
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background-color: #87b42c;
+    font-size: 13px;
+    font-family: Arial Black;
+    font-weight: bolder;
+    border: 2px solid #87b42c;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.caption-btn:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ac-future {
+    display: flex;
+    background-color: #87b42c;
+    font-family: Calibri;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.future-text {
+    float: left;
+    color: white;
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+.student-corner-btn {
+    float: right;
+    margin-left: 250px;
+}
+
+.stbtn-right {
+    margin-right: 80px;
+}
+
+.stbtn-left {
+    margin-right: 30px;
+}
+
+#stbtn {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    background-color: #87b42c;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#stbtn:hover {
+    background-color: white;
+    color: black;
+}
+
+.ico {
+    float: left;
+    padding: 20px 0px 25px 0px;
+    margin: 13px 13px 40px 13px;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 5px;
+}
+
+.ico:hover {
+    border-color: #87b42c;
+}
+
+#read-more:hover {
+    color: white;
+    background-color: #87b42c;
+}
+
+#read-more {
+    margin-left: 45px;
+    padding: 5px;
+    font-family: Calibri;
+    font-size: 13px;
+    background-color: white;
+    color: #87b42c;
+    border: 1px solid #87b42c;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#main-icons {
+    /* align-items: center; */
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #87b42c;
+    color: white;
+    float: left;
+    margin: 0px 50px 10px 50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#ico-p {
+    padding-left: 45px;
+    align-items: center;
+    color: grey;
+}
+
+.profiles {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(240, 238, 238);
+    font-family: Calibiri;
+}
+
+.column {
+    float: left;
+    padding: 20px 80px 25px 80px;
+    width: 50%;
+}
+
+.column:hover {
+    background-color: white;
+    border: 1px solid #87b42c;
+    border-radius: 5px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#pro-head {
+    color: black;
+}
+
+#read-profile:hover {
+    border: 1px solid #87b42c;
+}
+
+#read-profile {
+    padding: 10px;
+    font-family: Calibri;
+    font-size: 15px;
+    background-color: #87b42c;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.left-align {
+    padding-right: 10px;
+    width: 50%;
+    float: left;
+}
+
+.right-align {
+    float: right;
+    width: 50%;
+}
+
+#sidebar-head {
+    padding: 0px 0px 5px 0px;
+    margin: 30px 0px 0px 30px;
+
+    border-left: 5px solid #87b42c;
+}
+
+#sidebar-head h1 {
+    margin-left: 15px;
+    color: rgb(32, 32, 32);
+}
+
+.scroll {
+    padding: 100px;
+    background-color: aqua;
+}
+
+.bottom {
+    padding: 200px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(54, 50, 50);
+    font-family: Calibiri;
+}
+
+.foot {
+    padding: 7px;
+    font-size: 14px;
+    color: white;
+    background-color: #87b42c;
+    font-family: Calibri;
+}

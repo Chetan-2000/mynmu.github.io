@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KBCNMU</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/app.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <p class="main-left">
+                <i class="fa fa-home"></i>&nbsp;&nbsp;<a href="#">Site Home</a> &nbsp;&nbsp;
+                <i class="fa fa-user"></i>&nbsp;&nbsp;<a href="#">Portal Login </a>&nbsp;&nbsp;
+                <i class="fa fa-envelope"></i>&nbsp;&nbsp;<a href="#">Login</a>&nbsp;&nbsp;
+                <i class="fa fa-phone"></i>&nbsp;&nbsp;<a href="#">Contact Us</a>
+            </p>
+            <p class="main-right">
+                <a href="#">Old Website</a> &nbsp;|&nbsp; <a href="#">Skip to Main Content</a> &nbsp;| &nbsp;
+                <a href="#">Screen Reader Access</a>&nbsp;&nbsp;
+                <select>
+                    <option><a href="#"> English (United States)</a></option>
+                    <option><a href="#">मराठी (भारत)</a></option>
+                </select>
+            </p>
+        </div>
+        <!-- <hr> -->
+        <img class="main-img" src="images/banner.png" alt="header">
+        <div class="navbar">
+            <ul>
+                <li><a id="navlink" href="#">Home</a></li>
+                <!-- <li><a id="navlink" href="#">About US&nbsp;<i class="fa fa-caret-down"></i></a></li> -->
+                <li><a id="navlink" class="dropbtn" href="#">About US&nbsp;<i class="fa fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a id="navlink" href="admin">Admin</a>
+                        <a id="navlink" href="user">User</a>
+                    </div>
+                </li>
+
+                <li><a id="navlink" href="#">Academics&nbsp;<i class="fa fa-caret-down"></i></a></li>
+                <li><a id="navlink" href="#">Programmes&nbsp;<i class="fa fa-caret-down"></i></a></li>
+                <li><a id="navlink" href="#">Administration&nbsp;<i class="fa fa-caret-down"></i></a></li>
+                <li><a id="navlink" href="#">Student Corner&nbsp;<i class="fa fa-caret-down"></i></a></li>
+                <li><a id="navlink" href="#">Research&nbsp;<i class="fa fa-caret-down"></i></a></li>
+                <li><a id="navlink" href="#">Facilities&nbsp;<i class="fa fa-caret-down"></i></a></li>
+                <li><a id="navlink" href="#">Useful Links&nbsp;<i class="fa fa-caret-down"></i></a></li>
+                <div class="search-tab">
+                    <button id="search-btn" type="submit"><i class="fa fa-search"></i></button>
+                    <input class="nav-search" type="text" size="20" aria-label="Search" placeholder="Search">
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide fade">
+            <img class="img-slide" src="images/aazadi.jpg" style="width: 100%;">
+            <div class="container">
+                <div class="caption">
+                    <div id="caption-head"><span id="caption-head-first">Azadi </span>Ka Amrit Mahotsav</div>
+                    <div id="caption-desc">Har Ghar Tiranga
+                    </div><br>
+                    <button class="caption-btn" type="button"><strong>KNOW MORE</strong></button>
+                </div>
+            </div>
+        </div>
+        <div class="slide fade">
+            <img class="img-slide" src="images/Agnipath.jpg" style="width: 100%;">
+            <div class="container">
+                <div class="caption">
+                    <div id="caption-head"><span id="caption-head-first">Agni</span>path Scheme</div>
+                    <div id="caption-desc">Agnipath Scheme
+                    </div><br>
+                    <button class="caption-btn" type="button"><strong>KNOW MORE</strong></button>
+                </div>
+            </div>
+        </div>
+        <div class="slide fade">
+            <img class="img-slide" src="images/nmucamp.jpg" style="width: 100%;">
+            <div class="container">
+                <div class="caption">
+                    <div id="caption-head"><span id="caption-head-first">Start</span> Your Destiny Here...</div>
+                    <div id="caption-desc">DREAM is not what you see in sleep, DREAM is something which<br>doesn't let
+                        you
+                        sleep - Dr. A. P. J. Abdul Kalam
+                    </div><br>
+                    <button class="caption-btn" type="button"><strong>KNOW MORE</strong></button>
+                </div>
+            </div>
+        </div>
+        <div class="slide fade">
+            <img class="img-slide" src="images/camp1.jpg" style="width: 100%;">
+            <div class="container">
+                <div class="caption">
+                    <div id="caption-head"><span id="caption-head-first">Learn </span>In Beautiful Campus</div>
+                    <div id="caption-desc">University campus is surrounded by lush green environment<br>with diverse
+                        flora
+                        and fauna.
+                    </div><br>
+                    <button class="caption-btn" type="button"><strong>KNOW MORE</strong></button>
+                </div>
+            </div>
+        </div>
+        <div class="slide fade">
+            <img class="img-slide" src="images/lab2.jpg" style="width: 100%;">
+            <div class="container">
+                <div class="caption">
+                    <div id="caption-head"><span id="caption-head-first">State </span>Of Art Laboratories</div>
+                    <div id="caption-desc">University campus has state of the art classroom, laboratories and<br>
+                        infrastructural facilities.
+                    </div><br>
+                    <button class="caption-btn" type="button"><strong>KNOW MORE</strong></button>
+                </div>
+            </div>
+        </div>
+        <span class="previous" onclick="arrow(-1)">❮</span>
+        <span class="next" onclick="arrow(1)">❯</span>
+    </div>
+    <div class="container">
+        <div class="ac-future">
+            <p class="future-text">
+                &nbsp;Your Academic Future Starts Here...
+            </p>
+            <div class="student-corner-btn">
+                <button class="stbtn-left" id="stbtn" type="button">Student Corner</button>
+                <button class="stbtn-right" id="stbtn" type="button">Employer's Corner</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="ico"><i id="main-icons" class="fa fa-graduation-cap"></i>
+                <P id="ico-p">Programmes</P>
+                <a id="read-more">Read More</a>
+            </div>
+            <div class="ico"><i id="main-icons" class="fa fa-university"></i>
+                <p id="ico-p">Admisions</p>
+                <a id="read-more">Read More</a>
+            </div>
+            <div class="ico"><i id="main-icons" class="fa fa-file"></i>
+                <p id="ico-p">Syllabi</p>
+                <a id="read-more">Read More</a>
+            </div>
+            <div class="ico"><i id="main-icons" class="fa fa-book"></i>
+                <p id="ico-p">KRC-Library</p>
+                <a id="read-more">Read More</a>
+            </div>
+            <div class="ico"><i id="main-icons" class="fa fa-check-square-o"></i>
+                <p id="ico-p">Exam Results</p>
+                <a id="read-more">Read More</a>
+            </div>
+            <div class="ico"><i id="main-icons" class="fa fa-desktop"></i>
+                <p id="ico-p">E-Suvidha</p>
+                <a id="read-more">Read More</a>
+            </div>
+        </div>
+    </div>
+    <div class="profiles">
+        <div class="container">
+            <div class="left-align">
+                <div class="row">
+                    <div class="column">
+                        <!-- <div class="pro"> -->
+                        <img alt="" src="images/Governor.jpg" style="width: 80px; height: 100px;border:solid 1px;"
+                            title="Hon'ble Chancellor" /><br>
+                        <p id="pro-head">Hon'ble Chancellor<br>
+                            Shri. Bhagat Singh Koshyari</p>
+                        <a id="read-profile">Profile</a>
+                        <!-- </div> -->
+                    </div>
+                    <div class="column">
+                        <!-- <div class="pro"> -->
+                        <img alt="" src="images/vc.jpg" style="width: 80px; height: 100px;border:solid 1px;"
+                            title="Hon'ble Chancellor" /><br>
+                        <p id="pro-head">Hon'ble Vice-Chancellor<br>
+                            Prof. V. L. Maheshwari</p>
+                        <a id="read-profile">Profile</a>
+                        <!-- </div> -->
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <!-- <div class="pro"> -->
+                        <img alt="" src="images/PVC.jpg" style="width: 80px; height: 100px;border:solid 1px;"
+                            title="Hon'ble Chancellor" /><br>
+                        <p id="pro-head">Hon'ble Pro Vice-Chancellor<br>
+                            Prof. S. T. Ingle</p>
+                        <a id="read-profile">Profile</a>
+                        <!-- </div> -->
+                    </div>
+                    <div class="column">
+                        <!-- <div class="pro"> -->
+                        <img alt="" src="images/Registrar.png" style="width: 80px; height: 100px;border:solid 1px;"
+                            title="Hon'ble Chancellor" /><br>
+                        <p id="pro-head">Registrar<br>
+                            Prof. K. F. Pawar</p>
+                        <a id="read-profile">Profile</a>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="right-align">
+                <div id="sidebar-head">
+                    <h1>NEWS AND ANNOUNCEMENTS</h1>
+                </div>
+                <div class="sidebar">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="container">
+
+        </div>
+    </div>
+    <footer class="foot">
+        <div class="container">
+            <p>&copy;&nbsp;2022 BY KAVAYITRI BAHINABAI CHAUDHARI NORTH MAHARASHTRA UNIVERSITY, JALGAON</p>
+        </div>
+    </footer>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function arrow(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("slide");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+            // setTimeout(showSlides, 2000);
+        }
+    </script>
+</body>
+
+</html>
